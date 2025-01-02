@@ -19,10 +19,10 @@ A Python script to automatically download videos from TikTok and upload them to 
   ```
   Example:
   ```
-  python TiktokDownloader.py https://www.tiktok.com/@think_now?_t=8sh89Xq3g0O
+  python TiktokDownloader.py https://www.tiktok.com/@think_now
   ```
 
-- **Error Handling:** Automatically restarts the upload process if errors occur, such as hitting YouTube's daily upload limit.
+- **Error Handling:** Automatically restarts the upload process if errors occur, such as hitting YouTube's daily upload limit.but need to fix on other error you need to keep an eye
 
 ## Requirements
 
@@ -30,46 +30,29 @@ A Python script to automatically download videos from TikTok and upload them to 
 - Required Python libraries:
   - `requests`
   - `beautifulsoup4`
-  - `google-api-python-client`
-  - `google-auth`
-  - `google-auth-oauthlib`
-  - `google-auth-httplib2`
+  - `selenium`
+  - `tqdm`
+
 
 ## Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/tiktok-youtube-autoposter.git
-   cd tiktok-youtube-autoposter
+     Download zip file from here 
+      then run "chromefix.cmd"
+      login to your youtube and tiktok account and close the browser
+   then edit "tiktok tags.cmd"
+    change tag or past url like 
+    then it work on its self , next time you want to run again then open "Start.cmd"
    ```
 
-2. Install the required libraries:
-   ```
-   pip install -r requirements.txt
-   ```
 
-3. Set up your Google API credentials for YouTube Data API.
-   - Create a project in the [Google Cloud Console](https://console.cloud.google.com/).
-   - Enable the YouTube Data API.
-   - Download the OAuth 2.0 credentials JSON file and place it in the project directory.
-
-## Usage
-
-1. **Download by Tag:**
-   ```
-   python TiktokDownloader.py <tag_name>
-   ```
-
-2. **Download by Profile:**
-   ```
-   python TiktokDownloader.py <profile_url>
-   ```
 
 3. The script will automatically upload the videos to YouTube. If an error occurs during the upload, the script will restart the process.
 
 ## To-Do
 
-- Improve error handling for YouTube API limits.
+- Improve error handling for YouTube upload section.
 - Add support for scheduling uploads.
 - Enhance logging and debugging features.
 
